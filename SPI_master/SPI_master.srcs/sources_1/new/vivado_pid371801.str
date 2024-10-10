@@ -1,0 +1,1383 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 371801
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Sep 26 21:26:24 CEST 2024
+Time zone: 	Central European Standard Time (Europe/Brussels)
+
+OS: Ubuntu
+OS Version: 6.8.0-40-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9
+Java executable: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	anthony
+User home directory: /home/anthony
+User working directory: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/sources_1/new
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2022.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: /home/anthony/.Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: /home/anthony/.Xilinx/Vivado/2022.1/
+Vivado layouts directory: /home/anthony/.Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/sources_1/new/vivado.log
+Vivado journal file: 	/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/sources_1/new/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-371801-anthony-HP-Pavilion-Laptop-15-cc1xx
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2022.1
+XILINX_SDK: /tools/Xilinx/Vitis/2022.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2022.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	370 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,977 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.xpr", 0); // r
+// [GUI Memory]: 73 MB (+73952kb) [00:00:11]
+// [Engine Memory]: 1,969 MB (+1913342kb) [00:00:11]
+// Opening Vivado Project: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,870 MB. GUI used memory: 57 MB. Current time: 9/26/24, 9:26:26 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+18373kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  4097 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'. 
+// [GUI Memory]: 105 MB (+6903kb) [00:00:23]
+// Project name: SPI_master; location: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master; part: xc7s25csga225-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:11 . Memory (MB): peak = 7643.699 ; gain = 75.184 ; free physical = 2369 ; free virtual = 13034 
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+// PAPropertyPanels.initPanels (received_data_back2.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, received_data_back2(behavioural) (received_data_back2.vhd)]", 6, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stm32_slave_26_9_24(behavioural) (stm32_slave_26_9_24.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stm32_slave_26_9_24(behavioural) (stm32_slave_26_9_24.vhd)]", 1, false); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,984 MB. GUI used memory: 68 MB. Current time: 9/26/24, 9:26:41 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stm32_slave_26_9_24(behavioural) (stm32_slave_26_9_24.vhd)]", 1, false); // D
+// [GUI Memory]: 127 MB (+16893kb) [00:00:30]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stm32_slave_26_9_24(behavioural) (stm32_slave_26_9_24.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  3514 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("stm32_slave_26_9_24.vhd", 23, 206); // be
+// [Engine Memory]: 2,068 MB (+607kb) [00:00:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,019 MB. GUI used memory: 74 MB. Current time: 9/26/24, 9:27:01 PM CEST
+// Elapsed time: 10 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 38, 219); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 26 21:27:19 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 21:27:19 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 86 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("stm32_slave_26_9_24.vhd", 1, 248); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 101, 279); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 101, 279, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'c'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 72, 251); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 57, 252); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 57, 252, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a
+dismissDialog("Save Project"); // al
+selectCodeEditor("stm32_slave_26_9_24.vhd", 267, 359); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("No Implementation Results Available"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 21:29:15 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 21:29:15 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 137 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bA
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+// HMemoryUtils.trashcanNow. Engine heap size: 2,116 MB. GUI used memory: 79 MB. Current time: 9/26/24, 9:31:36 PM CEST
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ar
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:10:30     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-21:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  3771 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210376B85504A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 3,794 MB (+1700914kb) [00:05:32]
+dismissDialog("Auto Connect"); // bA
+// HMemoryUtils.trashcanNow. Engine heap size: 3,811 MB. GUI used memory: 79 MB. Current time: 9/26/24, 9:34:51 PM CEST
+// Elapsed time: 354 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 169, 379); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 169, 378, false, false, false, false, true); // be - Double Click
+selectCodeEditor("stm32_slave_26_9_24.vhd", 173, 399); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 173, 399, false, false, false, false, true); // be - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 96, 200); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 96, 200, false, false, false, false, true); // be - Double Click
+selectCodeEditor("stm32_slave_26_9_24.vhd", 92, 159); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 92, 159, false, false, false, false, true); // be - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 204, 364); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 204, 364, false, false, false, false, true); // be - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 250, 284); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 194, 359); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 194, 359, false, false, false, false, true); // be - Double Click
+selectCodeEditor("stm32_slave_26_9_24.vhd", 177, 202); // be
+// Elapsed time: 18 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 217, 199); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 133, 194); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 136, 197); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 101, 206); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'c'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 216, 324); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 224, 318); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 167, 408); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 404, 313); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 131, 198); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,844 MB. GUI used memory: 79 MB. Current time: 9/26/24, 9:39:31 PM CEST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 21:39:33 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 21:39:33 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 156 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+// Elapsed time: 78 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// [GUI Memory]: 136 MB (+2570kb) [00:17:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,845 MB. GUI used memory: 80 MB. Current time: 9/26/24, 10:09:31 PM CEST
+// Elapsed time: 1680 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 212, 368); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed time: 49 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 92, 201); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 138, 323); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 133, 419); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 159, 431); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 103, 261); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// HMemoryUtils.trashcanNow. Engine heap size: 3,866 MB. GUI used memory: 80 MB. Current time: 9/26/24, 10:12:41 PM CEST
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 22:12:42 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 22:12:42 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 114 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+// Elapsed time: 298 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 395, 218); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 144, 396); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// 'cW' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+// HMemoryUtils.trashcanNow. Engine heap size: 3,879 MB. GUI used memory: 71 MB. Current time: 9/26/24, 10:19:46 PM CEST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 22:19:48 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 22:19:48 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 110 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 176 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 127, 308); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 185, 350); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 70, 314); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 22:24:49 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 22:24:49 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 110 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 58 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 211, 425); // be
+// Elapsed time: 334 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 202, 209); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 202, 209, false, false, false, false, true); // be - Double Click
+selectCodeEditor("stm32_slave_26_9_24.vhd", 196, 222); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 196, 222, false, false, false, false, true); // be - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 3,896 MB. GUI used memory: 71 MB. Current time: 9/26/24, 10:49:46 PM CEST
+// Elapsed time: 1801 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 76, 50); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 76, 50, false, false, false, false, true); // be - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 78, 193); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("stm32_slave_26_9_24.vhd", 153, 426); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 133, 425); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 113, 413); // be
+// Elapsed time: 42 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 29 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 271, 294); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'c'); // be
+// Elapsed time: 358 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 214, 254); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 7, 275); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 7, 275, false, false, false, false, true); // be - Double Click
+// Elapsed time: 210 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 67, 354); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 67, 354, false, false, false, false, true); // be - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 3,898 MB. GUI used memory: 70 MB. Current time: 9/26/24, 11:19:46 PM CEST
+// Elapsed time: 274 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 22 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 154, 292); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 267, 294); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'c'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 244, 379); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 250, 364); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 209, 131); // be
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("stm32_slave_26_9_24.vhd", 89, 142); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,914 MB. GUI used memory: 70 MB. Current time: 9/26/24, 11:20:41 PM CEST
+selectCodeEditor("stm32_slave_26_9_24.vhd", 77, 143); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 88, 142); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'cW' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 23:20:51 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:20:51 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 28 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 212, 395); // be
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g
+selectButton("OptionPane.button", "Cancel Process"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bA
+selectCodeEditor("stm32_slave_26_9_24.vhd", 222, 399); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,935 MB. GUI used memory: 70 MB. Current time: 9/26/24, 11:21:26 PM CEST
+selectCodeEditor("stm32_slave_26_9_24.vhd", 140, 186); // be
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'The file '/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_ 1/stm32_slave_26_9_24.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bC
+selectCodeEditor("stm32_slave_26_9_24.vhd", 323, 332); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'The file '/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_ 1/stm32_slave_26_9_24.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("No Implementation Results Available"); // A
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 23:21:47 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:21:47 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 222, 356); // be
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 167 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 19 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 219, 351); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 224, 354); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 82, 91); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'cW' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+selectCodeEditor("stm32_slave_26_9_24.vhd", 380, 360); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,968 MB. GUI used memory: 71 MB. Current time: 9/26/24, 11:25:51 PM CEST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 23:25:52 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:25:52 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 115 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 66 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 216, 346); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 228, 352); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a
+dismissDialog("Save Project"); // al
+selectCodeEditor("stm32_slave_26_9_24.vhd", 334, 358); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 3,985 MB (+1684kb) [02:02:59]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 26 23:29:11 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:29:11 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 150 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 37 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 219, 348); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 224, 352); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 206, 173); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,002 MB. GUI used memory: 71 MB. Current time: 9/26/24, 11:32:36 PM CEST
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 23:32:40 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:32:40 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 103 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 135 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 218, 353); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 104, 78); // be
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+selectCodeEditor("stm32_slave_26_9_24.vhd", 60, 139); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 514, 135); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 66, 152); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 66, 152, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'c'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 99, 282); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 104, 273); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 104, 273, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 214, 437); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 214, 437, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "stm32_slave_26_9_24.vhd", 'v'); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 50, 161); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 42, 147); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 63, 323); // be
+selectCodeEditor("stm32_slave_26_9_24.vhd", 63, 323, false, false, false, false, true); // be - Double Click
+selectCodeEditor("stm32_slave_26_9_24.vhd", 3, 322); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("stm32_slave_26_9_24.vhd", 498, 365); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Sep 26 23:37:59 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:37:59 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,023 MB. GUI used memory: 71 MB. Current time: 9/26/24, 11:39:21 PM CEST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 106 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 258 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device"); // ao
+selectMenu(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device"); // ao
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ao
+selectMenu(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device"); // ao
+selectMenu(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Elapsed time: 48 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectCodeEditor("stm32_slave_26_9_24.vhd", 81, 189); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 12); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Cmod-S7-25-Master.xdc]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Cmod-S7-25-Master.xdc]", 14, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1696 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("Cmod-S7-25-Master.xdc", 147, 107); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 175, 111); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 7, 113); // be
+typeControlKey(null, null, 'z');
+selectCodeEditor("Cmod-S7-25-Master.xdc", 669, 108); // be
+typeControlKey((HResource) null, "Cmod-S7-25-Master.xdc", 'c'); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 12, 123); // be
+typeControlKey((HResource) null, "Cmod-S7-25-Master.xdc", 'v'); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 204, 156); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 175, 154); // be
+// Elapsed time: 35 seconds
+selectCodeEditor("Cmod-S7-25-Master.xdc", 264, 276); // be
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Cmod-S7-25-Master.xdc", 299, 160); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 299, 160, false, false, false, false, true); // be - Double Click
+selectCodeEditor("Cmod-S7-25-Master.xdc", 647, 156); // be
+selectCodeEditor("Cmod-S7-25-Master.xdc", 647, 156, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "stm32_slave_26_9_24.vhd", 1); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/stm32_slave_26_9_24.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: [Thu Sep 26 23:46:44 2024] Launched synth_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/synth_1/runme.log [Thu Sep 26 23:46:45 2024] Launched impl_1... Run output will be captured here: /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 104 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,070 MB. GUI used memory: 83 MB. Current time: 9/26/24, 11:48:31 PM CEST
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+dismissDialog("Create Block Design"); // aX
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // n
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'U' command handler elapsed time: 3 seconds
+dismissDialog("Create Block Design"); // aX
+// TclEventType: LOAD_FEATURE
+// Tcl Message: create_bd_design "design_1" 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Wrote  : </home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1086 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,140 MB. GUI used memory: 88 MB. Current time: 9/26/24, 11:48:57 PM CEST
+// Tcl Message: create_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 9787.559 ; gain = 51.324 ; free physical = 3307 ; free virtual = 8430 
+dismissDialog("Create Block Design"); // bA
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.runs/impl_1/stm32_slave_26_9_24.bit} [get_hw_devices xc7s25_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7s25_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "stm32_slave_26_9_24.vhd", 0); // m
+// [GUI Memory]: 147 MB (+4545kb) [02:24:16]
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Cmod-S7-25-Master.xdc", 1); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 288 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, false, false, false, false, false, true); // D - Double Click
+// TclEventType: RSB_OPEN_DIAGRAM
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design {/home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bA
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, (String) null); // D
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "clk"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 0, "Clocking Wizard", 0, false); // L
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 0); // L
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 0, "Clocking Wizard", 0, false, false, false, false, false, true); // L - Double Click
+// TclEventType: LOAD_FEATURE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0 
+// [Engine Memory]: 4,209 MB (+25887kb) [02:29:26]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bA
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// WARNING: HEventQueue.dispatchEvent() is taking  1272 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,306 MB. GUI used memory: 106 MB. Current time: 9/26/24, 11:55:42 PM CEST
+dismissDialog("Re-customize IP"); // N
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 16 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cW
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cW
+// [GUI Memory]: 155 MB (+903kb) [02:29:54]
+// Elapsed time: 14 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "1.000"); // B
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 16 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "8.000"); // B
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Elapsed time: 10 seconds
+selectCheckBox((HResource) null, "input_clk_stopped", true); // g: TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "input_clk_stopped", false); // g: FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,364 MB. GUI used memory: 109 MB. Current time: 9/26/24, 11:56:56 PM CEST
+selectCheckBox((HResource) null, "input_clk_stopped", true); // g: TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "input_clk_stopped", false); // g: FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // r
+// Tcl Command: 'set_property -dict [list CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {8.000} CONFIG.USE_INCLK_STOPPED {false} CONFIG.CLKIN1_JITTER_PS {833.33} CONFIG.MMCM_CLKFBOUT_MULT_F {64.000} CONFIG.MMCM_CLKIN1_PERIOD {83.333} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {96.000} CONFIG.CLKOUT1_JITTER {718.391} CONFIG.CLKOUT1_PHASE_ERROR {693.818}] [get_bd_cells clk_wiz_0]'
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {8.000} CONFIG.USE_INCLK_STOPPED {false} CONFIG.CLKIN1_JITTER_PS {833.33} CONFIG.MMCM_CLKFBOUT_MULT_F {64.000} CONFIG.MMCM_CLKIN1_PERIOD {83.333} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {96.000} CONFIG.CLKOUT1_JITTER {718.391} CONFIG.CLKOUT1_PHASE_ERROR {693.818}] [get_bd_cells clk_wiz_0] 
+// [GUI Memory]: 167 MB (+4689kb) [02:31:01]
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // g
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true, true, ui.utils.collection.couples.TriState.True); // ac - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Run Connection Automation"); // O
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: startgroup 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {sys_clock ( System Clock ) } Manual_Source {New External Port (ACTIVE_LOW)}}  [get_bd_pins clk_wiz_0/clk_in1] 
+// Tcl Message: INFO: [board_rule 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /clk_wiz_0] INFO: [board_rule 100-100] set_property CONFIG.CLK_IN1_BOARD_INTERFACE sys_clock [get_bd_cells /clk_wiz_0] 
+// Tcl Message: INFO: [BoardRule 102-10] create_bd_port -dir I sys_clock -type clk INFO: [BoardRule 102-5] set_property CONFIG.FREQ_HZ 100000000 /sys_clock INFO: [BoardRule 102-6] set_property CONFIG.PHASE 0.0 /sys_clock INFO: [BoardRule 102-15] connect_bd_net /sys_clock /clk_wiz_0/clk_in1 INFO: [BoardRule 102-17] set_property CONFIG.FREQ_HZ 12000000 /sys_clock 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {reset ( Reset (BTN0) ) } Manual_Source {New External Port (ACTIVE_HIGH)}}  [get_bd_pins clk_wiz_0/reset] 
+// Tcl Message: INFO: [board_rule 100-100] set_property CONFIG.RESET_BOARD_INTERFACE reset [get_bd_cells /clk_wiz_0] INFO: [BoardRule 102-10] create_bd_port -dir I reset -type rst INFO: [BoardRule 102-7] set_property CONFIG.POLARITY ACTIVE_HIGH /reset INFO: [BoardRule 102-15] connect_bd_net /reset /clk_wiz_0/reset INFO: [BoardRule 102-18] set_property CONFIG.POLARITY ACTIVE_HIGH /reset 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // bA
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE

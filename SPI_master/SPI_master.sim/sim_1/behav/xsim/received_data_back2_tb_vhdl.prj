@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SPI_master.srcs/sources_1/new/master.vhd" \
+"../../../../SPI_master.srcs/sources_1/new/test.vhd" \
+"../../../../SPI_master.srcs/sources_1/new/master_git.vhd" \
+"../../../../SPI_master.srcs/sources_1/new/receiving_data_back.vhd" \
+"../../../../SPI_master.srcs/sources_1/new/received_data_back2.vhd" \
+"../../../../SPI_master.srcs/sim_1/new/master_tb.vhd" \
+"../../../../SPI_master.srcs/sim_1/new/received_data_tb.vhd" \
+
+# Do not sort compile order
+nosort

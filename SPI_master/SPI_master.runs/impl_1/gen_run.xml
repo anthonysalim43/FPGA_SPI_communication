@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1728488211">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="slave_sync_sclk_1_process_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="slave_sync_sclk_1_process_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="slave_sync_sclk_1_process.drc"/>
+  <File Type="BG-BGN" Name="slave_sync_sclk_1_process.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="slave_sync_sclk_1_process.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="slave_sync_sclk_1_process.ltx"/>
+  <File Type="RBD_FILE" Name="slave_sync_sclk_1_process.rbd"/>
+  <File Type="NPI_FILE" Name="slave_sync_sclk_1_process.npi"/>
+  <File Type="RNPI_FILE" Name="slave_sync_sclk_1_process.rnpi"/>
+  <File Type="CFI_FILE" Name="slave_sync_sclk_1_process.cfi"/>
+  <File Type="RCFI_FILE" Name="slave_sync_sclk_1_process.rcfi"/>
+  <File Type="RDI-RDI" Name="slave_sync_sclk_1_process.vdi"/>
+  <File Type="PDI-FILE" Name="slave_sync_sclk_1_process.pdi"/>
+  <File Type="BITSTR-MMI" Name="slave_sync_sclk_1_process.mmi"/>
+  <File Type="BITSTR-BMM" Name="slave_sync_sclk_1_process_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="slave_sync_sclk_1_process.nky"/>
+  <File Type="BITSTR-RBT" Name="slave_sync_sclk_1_process.rbt"/>
+  <File Type="BITSTR-MSK" Name="slave_sync_sclk_1_process.msk"/>
+  <File Type="BG-BIN" Name="slave_sync_sclk_1_process.bin"/>
+  <File Type="BG-BIT" Name="slave_sync_sclk_1_process.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="slave_sync_sclk_1_process_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="slave_sync_sclk_1_process_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="slave_sync_sclk_1_process_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="slave_sync_sclk_1_process_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="slave_sync_sclk_1_process_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="slave_sync_sclk_1_process_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="slave_sync_sclk_1_process_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="slave_sync_sclk_1_process_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="slave_sync_sclk_1_process_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="slave_sync_sclk_1_process_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="slave_sync_sclk_1_process_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="slave_sync_sclk_1_process_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="slave_sync_sclk_1_process_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="slave_sync_sclk_1_process_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="slave_sync_sclk_1_process_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="slave_sync_sclk_1_process_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="slave_sync_sclk_1_process_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="slave_sync_sclk_1_process_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="slave_sync_sclk_1_process_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="slave_sync_sclk_1_process_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="slave_sync_sclk_1_process_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="slave_sync_sclk_1_process_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="slave_sync_sclk_1_process_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="slave_sync_sclk_1_process_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="slave_sync_sclk_1_process_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="slave_sync_sclk_1_process_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="slave_sync_sclk_1_process_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="slave_sync_sclk_1_process_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="slave_sync_sclk_1_process_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="slave_sync_sclk_1_process_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="slave_sync_sclk_1_process_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="slave_sync_sclk_1_process_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="slave_sync_sclk_1_process_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="slave_sync_sclk_1_process_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="slave_sync_sclk_1_process_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="slave_sync_sclk_1_process_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="slave_sync_sclk_1_process_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="slave_sync_sclk_1_process_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="slave_sync_sclk_1_process_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="slave_sync_sclk_1_process_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="slave_sync_sclk_1_process_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="slave_sync_sclk_1_process_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="slave_sync_sclk_1_process_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="slave_sync_sclk_1_process.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="slave_sync_sclk_1_process_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="slave_sync_sclk_1_process_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="slave_sync_sclk_1_process_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="slave_sync_sclk_1_process_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="slave_sync_sclk_1_process_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="slave_sync_sclk_1_process.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/slave_sync_sclk_1_process.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slave_sync_sclk_2_process.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="slave_sync_sclk_1_process"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/SPI_VHDL/Cmod-S7-25-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Septembre/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1713206447"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/spi_master.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

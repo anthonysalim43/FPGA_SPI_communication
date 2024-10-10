@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct  9 17:37:44 2024
+# Process ID: 81629
+# Current directory: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/impl_1
+# Command line: vivado -log slave_sync_sclk_1_process.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source slave_sync_sclk_1_process.tcl -notrace
+# Log file: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/impl_1/slave_sync_sclk_1_process.vdi
+# Journal file: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/impl_1/vivado.jou
+# Running On: anthony-HP-Pavilion-Laptop-15-cc1xx, OS: Linux, CPU Frequency: 3400.009 MHz, CPU Physical cores: 4, Host memory: 12422 MB
+#-----------------------------------------------------------
+source slave_sync_sclk_1_process.tcl -notrace

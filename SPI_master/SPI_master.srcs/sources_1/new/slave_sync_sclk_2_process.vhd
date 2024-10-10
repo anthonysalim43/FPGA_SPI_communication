@@ -25,6 +25,7 @@ architecture behavioural of slave_sync_sclk_2_process is
     signal state        : integer := 0;
     signal bit_counter  : integer := 0;  -- Bit counter for 8-bit transfers
     signal rx_buffer    : std_logic_vector(7 downto 0) := (others => '0'); -- Receive buffer
+    signal crc_buffer    : std_logic_vector(7 downto 0) := (others => '0'); -- Receive buffer
     signal sclk_sync    : std_logic := '0';  -- Synchronized SPI clock signal
     signal sclk_prev    : std_logic := '0';  -- Previous state of the SPI clock for edge detection
     
@@ -140,10 +141,16 @@ begin
        --     sclk_prev <= sclk_sync;
          --   sclk_sync <= sclk;
                 if sclk_prev = '0' and sclk_sync = '1' then
+                
+                if bit_counter<8 then
                     rx_buffer(7 - bit_counter) <= miso;
                     bit_counter <= bit_counter + 1;
                     miso_out2 <= miso;
-                    if bit_counter = 7 then
+                elsif bit_counter>=8 and bit_counter <16 then 
+                    crc_buffer(15-bit_counter)<=miso;
+                     bit_counter <= bit_counter + 1;
+                end if ;
+                    if bit_counter = 15 then
                         bit_counter <= 0;
                        -- state <= 2;  -- All bits received, change state
                     end if;

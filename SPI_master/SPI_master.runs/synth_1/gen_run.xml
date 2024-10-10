@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1728488211" LaunchIncrCheckpoint="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="slave_sync_sclk_1_process_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="slave_sync_sclk_1_process.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="slave_sync_sclk_1_process_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="slave_sync_sclk_1_process_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="slave_sync_sclk_1_process_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="slave_sync_sclk_1_process.vds"/>
-  <File Type="REPORTS-TCL" Name="slave_sync_sclk_1_process_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="slave_sync_sclk_1_process_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="slave_sync_sclk_1_process.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1728601015" LaunchIncrCheckpoint="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="slave_CRC_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="slave_CRC.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="slave_CRC_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="slave_CRC_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="slave_CRC_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="slave_CRC.vds"/>
+  <File Type="REPORTS-TCL" Name="slave_CRC_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="slave_CRC_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="slave_CRC.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/slave_sync_sclk_1_process.vhd">
@@ -30,9 +30,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/slave_CRC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="slave_sync_sclk_1_process"/>
+      <Option Name="TopModule" Val="slave_CRC"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

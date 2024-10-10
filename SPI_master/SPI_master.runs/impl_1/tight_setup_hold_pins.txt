@@ -1,0 +1,8 @@
++====================+====================+===========================+
+| Launch Setup Clock | Launch Hold Clock  | Pin                       |
++====================+====================+===========================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_buffer_reg[7]/D        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_buffer_reg[6]/D        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | crc_buffer_reg[0]/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_onehot_state_reg[1]/D |
++--------------------+--------------------+---------------------------+

@@ -38,6 +38,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log slave_sync_sclk_1_process.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source slave_sync_sclk_1_process.tcl -notrace
+EAStep vivado -log slave_CRC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source slave_CRC.tcl -notrace
 
 

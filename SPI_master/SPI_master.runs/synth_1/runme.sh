@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log slave_sync_sclk_1_process.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source slave_sync_sclk_1_process.tcl
+EAStep vivado -log slave_CRC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source slave_CRC.tcl

@@ -1,8 +1,24 @@
-+====================+====================+===========================+
-| Launch Setup Clock | Launch Hold Clock  | Pin                       |
-+====================+====================+===========================+
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_buffer_reg[7]/D        |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | rx_buffer_reg[6]/D        |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | crc_buffer_reg[0]/D       |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_onehot_state_reg[1]/D |
-+--------------------+--------------------+---------------------------+
++====================+====================+===============================+
+| Launch Setup Clock | Launch Hold Clock  | Pin                           |
++====================+====================+===============================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[0]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[30]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[2]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[6]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[5]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[28]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[13]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[11]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[4]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[27]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_sequential_state_reg[1]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[7]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM_sequential_state_reg[0]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[9]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[10]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[12]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[1]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[8]/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | bit_counter_reg[21]/D         |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | uart_tx_inst/busy_reg/D       |
++--------------------+--------------------+-------------------------------+

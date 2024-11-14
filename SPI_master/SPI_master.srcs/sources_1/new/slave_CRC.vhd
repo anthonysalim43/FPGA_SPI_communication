@@ -9,6 +9,7 @@ entity slave_CRC is
         clk        : in std_logic;         -- System clock
         reset      : in std_logic;         -- Asynchronous active low reset
         miso       : in std_logic;         -- Master In Slave Out
+        mosi       : out std_logic:='0';         -- Master In Slave Out//I am using to signl to the stm32 to wait until it send the next byte
         sclk       : in std_logic;         -- SPI clock
         ss_n       : in std_logic;         -- Slave Select (active low)
         ss_n_out   : out std_logic;        -- Debug output for ss_n
@@ -89,7 +90,7 @@ begin
             crc_buffer<=x"00";
             combined_data_crc<=x"0000";
             received_data_correctly<="11";
-            
+            mosi<='0';
         elsif rising_edge(clk_generated) then
             
             sclk_prev <= sclk_sync;
@@ -99,6 +100,7 @@ begin
               -- received_data_correctly<="11";  
                 if ss_n = '0' then 
               --  received_data_correctly<="11";
+                    mosi<='1';
                     state <= 1;
                 end if;
                 
@@ -156,15 +158,16 @@ begin
                     
                     received_data_correctly<="00";
                    -- leds(0)<='1';
-                    leds(0) <= rx_buffer(4);
-                    leds(1) <= rx_buffer(5);
-                    leds(2) <= rx_buffer(6);
-                    leds(3) <= rx_buffer(7);
+                    leds(0) <= rx_buffer(0);
+                    leds(1) <= rx_buffer(1);
+                    leds(2) <= rx_buffer(2);
+                    leds(3) <= rx_buffer(3);
                 --  rx_buffer <= (others => '0');
                   --  sclk_prev <= '0';
                     --sclk_sync <= '0';
                     --bit_counter <= 0;
                     state <= 0;  -- Reset state to wait for the next SPI transfer
+                    mosi<='0';
                 else 
                 
                     state<=1;
@@ -175,6 +178,7 @@ begin
                     rx_buffer<=x"00";
                     sclk_prev<='0';
                     sclk_sync<='0';
+                    
                                  
                 end if;
             end if;

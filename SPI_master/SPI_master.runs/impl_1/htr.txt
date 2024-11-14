@@ -6,4 +6,4 @@
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log slave_CRC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source slave_CRC.tcl -notrace
+vivado -log remove_CRC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source remove_CRC.tcl -notrace

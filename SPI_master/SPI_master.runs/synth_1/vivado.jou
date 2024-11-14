@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri Oct 11 00:56:58 2024
-# Process ID: 285028
-# Current directory: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/synth_1
-# Command line: vivado -log slave_CRC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source slave_CRC.tcl
-# Log file: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/synth_1/slave_CRC.vds
-# Journal file: /home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/synth_1/vivado.jou
-# Running On: anthony-HP-Pavilion-Laptop-15-cc1xx, OS: Linux, CPU Frequency: 3699.883 MHz, CPU Physical cores: 4, Host memory: 12422 MB
+# Start of session at: Thu Nov 14 14:37:22 2024
+# Process ID: 110206
+# Current directory: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1
+# Command line: vivado -log remove_CRC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source remove_CRC.tcl
+# Log file: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/remove_CRC.vds
+# Journal file: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/vivado.jou
+# Running On: anthony-HP-Pavilion-Laptop-15-cc1xx, OS: Linux, CPU Frequency: 3699.996 MHz, CPU Physical cores: 4, Host memory: 12422 MB
 #-----------------------------------------------------------
-source slave_CRC.tcl -notrace
+source remove_CRC.tcl -notrace

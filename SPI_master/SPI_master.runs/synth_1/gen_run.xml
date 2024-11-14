@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1728601015" LaunchIncrCheckpoint="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="slave_CRC_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="slave_CRC.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="slave_CRC_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="slave_CRC_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="slave_CRC_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="slave_CRC.vds"/>
-  <File Type="REPORTS-TCL" Name="slave_CRC_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="slave_CRC_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="slave_CRC.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1731591439" LaunchIncrCheckpoint="$PPRDIR/../../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="remove_CRC_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="remove_CRC.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="remove_CRC_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="remove_CRC_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="remove_CRC_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="remove_CRC.vds"/>
+  <File Type="REPORTS-TCL" Name="remove_CRC_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="remove_CRC_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="remove_CRC.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/slave_sync_sclk_1_process.vhd">
@@ -36,16 +36,58 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_tx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slave_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_tx2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slave_UART_16bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/synchronizing_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/series_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/remove_CRC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="slave_CRC"/>
+      <Option Name="TopModule" Val="remove_CRC"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/SPI_VHDL/Cmod-S7-25-Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Septembre/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Septembre/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
         <Attr Name="ImportTime" Val="1713206447"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -66,7 +108,7 @@
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
+    <File Path="$PPRDIR/../../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

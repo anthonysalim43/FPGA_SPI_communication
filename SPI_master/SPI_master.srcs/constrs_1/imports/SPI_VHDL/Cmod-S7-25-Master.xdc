@@ -43,7 +43,7 @@ set_property -dict { PACKAGE_PIN E1    IOSTANDARD LVCMOS33 } [get_ports { leds[3
 
 ## USB UART
 ## Note: Port names are from the perspoctive of the FPGA.
-#set_property -dict { PACKAGE_PIN L12   IOSTANDARD LVCMOS33 } [get_ports { uart_tx }]; #IO_L6N_T0_D08_VREF_14 Sch=uart_rxd_out
+set_property -dict { PACKAGE_PIN L12   IOSTANDARD LVCMOS33 } [get_ports { uart_tx }]; #IO_L6N_T0_D08_VREF_14 Sch=uart_rxd_out
 #set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { uart_rx }]; #IO_L5N_T0_D07_14 Sch=uart_txd_in
 
 ## Analog Inputs on PIO Pins 32 and 33
@@ -70,7 +70,7 @@ set_property -dict { PACKAGE_PIN N15   IOSTANDARD LVCMOS33 } [get_ports { miso_o
 set_property -dict { PACKAGE_PIN N14   IOSTANDARD LVCMOS33 } [get_ports { clk_out }]; #IO_L10P_T1_D14_14 Sch=pio[20]
 set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { clk_out_wiz }]; #IO_L9N_T1_DQS_D13_14 Sch=pio[21]
 set_property -dict { PACKAGE_PIN M14   IOSTANDARD LVCMOS33 } [get_ports { reset_out }]; #IO_L9P_T1_DQS_14 Sch=pio[22]
-#set_property -dict { PACKAGE_PIN L15   IOSTANDARD LVCMOS33 } [get_ports { pio23 }]; #IO_L4N_T0_D05_14 Sch=pio[23]
+set_property -dict { PACKAGE_PIN L15   IOSTANDARD LVCMOS33 } [get_ports { mosi_out }]; #IO_L4N_T0_D05_14 Sch=pio[23]
 #set_property -dict { PACKAGE_PIN L14   IOSTANDARD LVCMOS33 } [get_ports { pio26 }]; #IO_L7N_T1_D10_14 Sch=pio[26]
 #set_property -dict { PACKAGE_PIN K14   IOSTANDARD LVCMOS33 } [get_ports { pio27 }]; #IO_L4P_T0_D04_14 Sch=pio[27]
 #set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { pio28 }]; #IO_L5P_T0_D06_14 Sch=pio[28]

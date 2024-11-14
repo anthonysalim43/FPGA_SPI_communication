@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/impl_1'
+HD_PWD='/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -38,6 +38,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log slave_CRC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source slave_CRC.tcl -notrace
+EAStep vivado -log remove_CRC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source remove_CRC.tcl -notrace
 
 

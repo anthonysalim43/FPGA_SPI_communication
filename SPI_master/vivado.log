@@ -1,0 +1,190 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov  7 21:35:08 2024
+# Process ID: 149672
+# Current directory: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master
+# Command line: vivado
+# Log file: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/vivado.log
+# Journal file: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/vivado.jou
+# Running On: anthony-HP-Pavilion-Laptop-15-cc1xx, OS: Linux, CPU Frequency: 3700.764 MHz, CPU Physical cores: 4, Host memory: 12422 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:06 . Memory (MB): peak = 7657.668 ; gain = 78.133 ; free physical = 2447 ; free virtual = 9699
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 21:41:20 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 21:41:20 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:10:30
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210376B85504A
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 21:57:01 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 21:57:01 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 22:14:58 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 22:14:58 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 22:20:01 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 22:20:01 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 22:56:41 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 22:56:41 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 23:03:40 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 23:03:40 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/anthony/VL53L8CX/Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp with file /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/slave_CRC.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  7 23:09:28 2024] Launched synth_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1/runme.log
+[Thu Nov  7 23:09:28 2024] Launched impl_1...
+Run output will be captured here: /home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/impl_1/slave_CRC.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7s25csga225-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9825.324 ; gain = 0.000 ; free physical = 2236 ; free virtual = 6561
+INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 10380.391 ; gain = 0.000 ; free physical = 1737 ; free virtual = 6064
+Restored from archive | CPU: 0.040000 secs | Memory: 0.447968 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 10380.391 ; gain = 0.000 ; free physical = 1737 ; free virtual = 6064
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10380.391 ; gain = 0.000 ; free physical = 1737 ; free virtual = 6064
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 10561.145 ; gain = 1001.969 ; free physical = 1595 ; free virtual = 5954
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+report_methodology completed successfully
+report_methodology -name ultrafast_methodology_2
+Command: report_methodology -name ultrafast_methodology_2
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+report_methodology completed successfully
+report_utilization -name utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 23:46:42 2024...

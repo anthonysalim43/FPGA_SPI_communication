@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/anthony/VL53L8CX/october/SPI_master/SPI_master.runs/synth_1'
+HD_PWD='/home/anthony/VL53L8CX/November/FPGA_SPI_communication/SPI_master/SPI_master.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log slave_CRC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source slave_CRC.tcl
+EAStep vivado -log remove_CRC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source remove_CRC.tcl

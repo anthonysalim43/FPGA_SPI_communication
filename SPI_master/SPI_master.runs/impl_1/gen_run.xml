@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1728601015">
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1731591439">
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="slave_CRC_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS" Name="slave_CRC_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="remove_CRC_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="remove_CRC_routed.rqs"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="slave_CRC.drc"/>
-  <File Type="BG-BGN" Name="slave_CRC.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="slave_CRC.sysdef"/>
+  <File Type="BG-DRC" Name="remove_CRC.drc"/>
+  <File Type="BG-BGN" Name="remove_CRC.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="remove_CRC.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="slave_CRC.ltx"/>
-  <File Type="RBD_FILE" Name="slave_CRC.rbd"/>
-  <File Type="NPI_FILE" Name="slave_CRC.npi"/>
-  <File Type="RNPI_FILE" Name="slave_CRC.rnpi"/>
-  <File Type="CFI_FILE" Name="slave_CRC.cfi"/>
-  <File Type="RCFI_FILE" Name="slave_CRC.rcfi"/>
-  <File Type="RDI-RDI" Name="slave_CRC.vdi"/>
-  <File Type="PDI-FILE" Name="slave_CRC.pdi"/>
-  <File Type="BITSTR-MMI" Name="slave_CRC.mmi"/>
-  <File Type="BITSTR-BMM" Name="slave_CRC_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="slave_CRC.nky"/>
-  <File Type="BITSTR-RBT" Name="slave_CRC.rbt"/>
-  <File Type="BITSTR-MSK" Name="slave_CRC.msk"/>
-  <File Type="BG-BIN" Name="slave_CRC.bin"/>
-  <File Type="BG-BIT" Name="slave_CRC.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="slave_CRC_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="slave_CRC_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="slave_CRC_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="slave_CRC_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="slave_CRC_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="slave_CRC_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="slave_CRC_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="slave_CRC_postroute_physopt.dcp"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="slave_CRC_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="slave_CRC_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW" Name="slave_CRC_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="slave_CRC_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="slave_CRC_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="slave_CRC_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="slave_CRC_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="slave_CRC_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="slave_CRC_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="slave_CRC_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="slave_CRC_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="slave_CRC_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="slave_CRC_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="slave_CRC_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="slave_CRC_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="slave_CRC_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="slave_CRC_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="slave_CRC_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="slave_CRC_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="slave_CRC_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="slave_CRC_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="slave_CRC_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="slave_CRC_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="slave_CRC_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="slave_CRC_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="slave_CRC_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="slave_CRC_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="slave_CRC_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="slave_CRC_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="slave_CRC_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="slave_CRC_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="slave_CRC_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="slave_CRC_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="slave_CRC_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="slave_CRC_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="slave_CRC_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="slave_CRC_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="slave_CRC_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="slave_CRC_pwropt.dcp"/>
-  <File Type="OPT-HWDEF" Name="slave_CRC.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="slave_CRC_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="slave_CRC_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="slave_CRC_opt.dcp"/>
-  <File Type="OPT-TIMING" Name="slave_CRC_timing_summary_opted.rpt"/>
-  <File Type="REPORTS-TCL" Name="slave_CRC_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="slave_CRC_timing_summary_init.rpt"/>
-  <File Type="PA-TCL" Name="slave_CRC.tcl"/>
+  <File Type="BITSTR-LTX" Name="remove_CRC.ltx"/>
+  <File Type="RBD_FILE" Name="remove_CRC.rbd"/>
+  <File Type="NPI_FILE" Name="remove_CRC.npi"/>
+  <File Type="RNPI_FILE" Name="remove_CRC.rnpi"/>
+  <File Type="CFI_FILE" Name="remove_CRC.cfi"/>
+  <File Type="RCFI_FILE" Name="remove_CRC.rcfi"/>
+  <File Type="RDI-RDI" Name="remove_CRC.vdi"/>
+  <File Type="PDI-FILE" Name="remove_CRC.pdi"/>
+  <File Type="BITSTR-MMI" Name="remove_CRC.mmi"/>
+  <File Type="BITSTR-BMM" Name="remove_CRC_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="remove_CRC.nky"/>
+  <File Type="BITSTR-RBT" Name="remove_CRC.rbt"/>
+  <File Type="BITSTR-MSK" Name="remove_CRC.msk"/>
+  <File Type="BG-BIN" Name="remove_CRC.bin"/>
+  <File Type="BG-BIT" Name="remove_CRC.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="remove_CRC_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="remove_CRC_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="remove_CRC_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="remove_CRC_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="remove_CRC_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="remove_CRC_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="remove_CRC_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="remove_CRC_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="remove_CRC_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="remove_CRC_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="remove_CRC_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="remove_CRC_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="remove_CRC_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="remove_CRC_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="remove_CRC_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="remove_CRC_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="remove_CRC_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="remove_CRC_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="remove_CRC_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="remove_CRC_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="remove_CRC_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="remove_CRC_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="remove_CRC_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="remove_CRC_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="remove_CRC_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="remove_CRC_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="remove_CRC_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="remove_CRC_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="remove_CRC_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="remove_CRC_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="remove_CRC_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="remove_CRC_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="remove_CRC_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="remove_CRC_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="remove_CRC_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="remove_CRC_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="remove_CRC_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="remove_CRC_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="remove_CRC_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="remove_CRC_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="remove_CRC_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="remove_CRC_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="remove_CRC_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="remove_CRC_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="remove_CRC_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="remove_CRC_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="remove_CRC_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="remove_CRC.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="remove_CRC_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="remove_CRC_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="remove_CRC_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="remove_CRC_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="remove_CRC_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="remove_CRC_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="remove_CRC.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/slave_sync_sclk_1_process.vhd">
@@ -106,16 +106,58 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_tx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slave_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_tx2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slave_UART_16bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/synchronizing_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/series_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/remove_CRC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="slave_CRC"/>
+      <Option Name="TopModule" Val="remove_CRC"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/SPI_VHDL/Cmod-S7-25-Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Septembre/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Septembre/SPI_VHDL/Cmod-S7-25-Master.xdc"/>
         <Attr Name="ImportTime" Val="1713206447"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -136,7 +178,7 @@
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
+    <File Path="$PPRDIR/../../../Septembre/SPI_VHDL/SPI_master/SPI_master.srcs/utils_1/imports/synth_1/spi_master.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

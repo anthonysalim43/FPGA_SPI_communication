@@ -76,10 +76,44 @@ while i < len(memory) - 3:  # Make sure we have at least 4 bytes to process
 
 # Write to file
 with open('received_data.txt', 'w') as file:
-    for distance, sigma, status in processed_data:
-        file.write(f"distance = {distance} mm\n")
-        file.write(f"sigma = {sigma}\n")
-        file.write(f"status = {status}\n")
-        file.write("--------------------\n")
+    # Preparing to group the data in chunks of 8
+    distances = []
+    sigmas = []
+    statuses = []
 
-print("Data processing complete. Data written to file.")
+    for idx, (distance, sigma, status) in enumerate(processed_data):
+        # Collecting each attribute
+        distances.append(f"distance = {distance} mm")
+        sigmas.append(f"sigma = {sigma} mm")
+        statuses.append(f"status = {status}")
+
+        # Every 8 measurements, we write the grouped attributes to the file
+        if (idx + 1) % 8 == 0:
+            file.write(" | ".join(distances) + "\n")
+            file.write(" | ".join(sigmas) + "\n")
+            file.write(" | ".join(statuses) + "\n")
+            file.write("---------------------------------------------------------------------------------\n")
+
+
+            print(" | ".join(distances))
+            print(" | ".join(sigmas))
+            print(" | ".join(statuses))
+            print("---------------------------------------------------------------------------------")
+            # Clear lists for the next set of 8
+            distances = []
+            sigmas = []
+            statuses = []
+
+    # If the total number of entries is not a multiple of 8, write remaining data
+    if distances:
+        file.write(" | ".join(distances) + "\n")
+        file.write(" | ".join(sigmas) + "\n")
+        file.write(" | ".join(statuses) + "\n")
+        file.write("---------------------------------------------------------------------------------\n")
+
+
+        print(" | ".join(distances))
+        print(" | ".join(sigmas))
+        print(" | ".join(statuses))
+        print("---------------------------------------------------------------------------------")
+
